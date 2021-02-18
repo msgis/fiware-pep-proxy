@@ -40,7 +40,7 @@ config.organizations = {
 config.pep = {
   app_id: process.env.PEP_PROXY_APP_ID || '',
   username: process.env.PEP_PROXY_USERNAME || '',
-  password: process.env.PEP_PASSWORD || '',
+  password: process.env.PEP_PROXY_PASSWORD || '',
   token: {
     secret: process.env.PEP_TOKEN_SECRET || '', // Secret must be configured in order validate a jwt
   },
